@@ -24,39 +24,22 @@ class Menu:
             print("Welcome to the Silicon Chat App")
 
         elif choice == 4:
-            print("\n 1. Kaggle \n 2. Geek for Geek \n 3. Git Hub \n 4. Find \n 5. Youtube ")
+            print("\n 1. Kaggle \n 2. Geek for Geek \n 3. Git Hub \n 4. Find \n 5. Youtube \n 6. Xamarin \n 7. Buildfire \n 8. Xcode \n 9. Android Studio \n 10. out Systems \n 11. Firebase ")
 
+        elif choice == 5:
+            print("Updates")
 
+        elif choice == 6:
+            print (" \n 1. Course \n 2. Register for Supplementary")
+
+        elif choice == 7:
+            print (" \n 1. Course \n 2. Supplementary")
+
+        elif choice == 8:
+            print ("Confirm completion")
         else:
             print("Select Menu above")
 
-        
-        # choice = ""
-
-        # while choice != "c" and choice != "f":
-        #     choice = input("Choose between 1 to 8")
-
-        #     if choice == "c":
-        #         print(int(choice))
-
-
-    # def menu():
-    #     choice = ''  # Start with a wrong answer for choice
-
-    #     while choice != 'c' and choice != 'f':  # Keep asking the user for the right answer
-    #         choice = input('Please enter c to encode/decode text, or f to perform frequency analysis: ')
-
-    #     if choice == 'c':
-    #         print('Running your message through the cypher…')
-    #         message = 'my secret message'
-    #         code = atbash(message)
-    #         print(code)
-
-    #         # Start up
-    # def main():
-    #     create_code()
-    #     # print(atbash('Test'))
-    #     menu()
 
     menu()
         

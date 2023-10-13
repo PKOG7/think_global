@@ -1,8 +1,9 @@
 class Card:
-    def __init__(self,card_number,cvv_number,pin_number):
+    def __init__(self,card_number,cvv_number,pin_number,email):
         self.card_number = card_number
         self.cvv_number  = cvv_number
         self.pin_number = pin_number
+        self.email = email
         # self.card = card
 
     def card():
@@ -61,5 +62,16 @@ class Card:
                     print("Enter valid PIN number")
                     break
 
-
+            
+            #EMAIL
+            while True:
+                try:
+                    email = input("Email: ")
+                    if email in email == True:
+                        break
+                    else:
+                        print("Email does not match")
+                
+                except ValueError:
+                    print("Invalid Input")
 Card.card()
